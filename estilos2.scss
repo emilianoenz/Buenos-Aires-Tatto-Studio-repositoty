@@ -8,8 +8,9 @@
 /*-------------------Color-scss------------------------------*/
 $body:rgb(0, 0, 0);
 $titulos:rgb(175, 32, 132);
-$texto:rgb(130, 128, 133);
+$texto:rgb(124, 123, 126);
 $textosecundario:rgb(68, 84, 230);
+
 
 
 /*----------------------Index---------------------------------*/
@@ -363,7 +364,7 @@ div h2 b{
 }
 
 .img10{
-    background-image: url(../img/tatuajes/medusa.jpg);
+    background-image: url(./img/tatuajes/medusa.jpg);
 }
 
 .img11{
@@ -371,16 +372,16 @@ div h2 b{
 }
 
 .img12{
-    background-image: url(../img/tatuajes/diegocopa.png);
+    background-image: url(./img/tatuajes/diegocopa.png);
     
 }
 
 .img13{
-    background-image: url(../img/tatuajes/cai.png);
+    background-image: url(./img/tatuajes/cai.png);
 }
 
 .img14{
-    background-image: url(../img/tatuajes/basketball.jpg);
+    background-image: url(./img/tatuajes/basketball.jpg);
 }
 
 @media only screen and (min-width:320px){

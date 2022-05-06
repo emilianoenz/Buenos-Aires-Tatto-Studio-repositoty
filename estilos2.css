@@ -54,7 +54,7 @@ body {
   }
 
   .textoHome {
-    color: rgb(130, 128, 133);
+    color: rgb(124, 123, 126);
   }
 
   p {
@@ -163,7 +163,7 @@ body {
 }
 
 p {
-  color: rgb(130, 128, 133);
+  color: rgb(124, 123, 126);
 }
 
 .sumate {
@@ -293,19 +293,19 @@ div h2 b {
 }
 
 .img1 {
-  background-image: url(../img/tatuajes/diego.jpg);
+  background-image: url(./img/tatuajes/diego.jpg);
 }
 
 .img2 {
-  background-image: url(../img/tatuajes/leon.jpg);
+  background-image: url(./img/tatuajes/leon.jpg);
 }
 
 .img3 {
-  background-image: url(../img/tatuajes/buo.jpg);
+  background-image: url(./img/tatuajes/buo.jpg);
 }
 
 .img4 {
-  background-image: url(../img/tatuajes/cazique.jpg);
+  background-image: url(./img/tatuajes/cazique.jpg);
 }
 
 .img5 {
@@ -317,35 +317,35 @@ div h2 b {
 }
 
 .img7 {
-  background-image: url(../img/tatuajes/rostrocolores.jpg);
+  background-image: url(./img/tatuajes/rostrocolores.jpg);
 }
 
 .img8 {
-  background-image: url(../img/tatuajes/charly.jpg);
+  background-image: url(./img/tatuajes/charly.jpg);
 }
 
 .img9 {
-  background-image: url(../img/tatuajes/flecha.jpg);
+  background-image: url(./img/tatuajes/flecha.jpg);
 }
 
 .img10 {
-  background-image: url(../img/tatuajes/medusa.jpg);
+  background-image: url(./img/tatuajes/medusa.jpg);
 }
 
 .img11 {
-  background-image: url(../img/tatuajes/guerreroaries.png);
+  background-image: url(./img/tatuajes/guerreroaries.png);
 }
 
 .img12 {
-  background-image: url(../img/tatuajes/diegocopa.png);
+  background-image: url(./img/tatuajes/diegocopa.png);
 }
 
 .img13 {
-  background-image: url(../img/tatuajes/cai.png);
+  background-image: url(./img/tatuajes/cai.png);
 }
 
 .img14 {
-  background-image: url(../img/tatuajes/basketball.jpg);
+  background-image: url(./img/tatuajes/basketball.jpg);
 }
 
 @media only screen and (min-width: 320px) {
@@ -448,7 +448,7 @@ h1 {
 }
 
 .card-text {
-  color: rgb(130, 128, 133);
+  color: rgb(124, 123, 126);
 }
 
 .card {
