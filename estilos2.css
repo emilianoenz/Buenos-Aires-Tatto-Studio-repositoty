@@ -193,17 +193,17 @@ strong {
   background-position: center;
 }
 .local .foto1 {
-  background-image: url(../img/local.png);
+  background-image: url(./img/local.png);
   background-position: center;
   background-size: cover;
 }
 .local .foto2 {
-  background-image: url(../img/local2.png);
+  background-image: url(./img/local2.png);
   background-position: center;
   background-size: cover;
 }
 .local .foto3 {
-  background-image: url(../img/local3.png);
+  background-image: url(./img/local3.png);
   background-position: center;
   background-size: cover;
 }
@@ -242,7 +242,7 @@ strong {
     grid-column: 3/4;
     grid-row: 1/3;
     background-color: blue;
-    background-image: url(../img/local3.png);
+    background-image: url(./img/local3.png);
     background-position: center;
     background-size: cover;
   }
