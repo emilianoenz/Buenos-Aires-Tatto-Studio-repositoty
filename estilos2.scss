@@ -5,11 +5,15 @@
     background-image: cover;
 }
 
+
 /*-------------------Color-scss------------------------------*/
 $body:rgb(0, 0, 0);
-$titulos:rgb(175, 32, 132);
-$texto:rgb(124, 123, 126);
-$textosecundario:rgb(68, 84, 230);
+$titulos1:rgb(175, 32, 132);
+$texto1:rgb(124, 123, 126);
+$texto2:rgb(68, 84, 230);
+
+
+
 
 
 
@@ -18,7 +22,7 @@ body{
     background-color: $body
 }
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:250px){
     nav{
         width: 100%;
         height: 80%;
@@ -60,7 +64,7 @@ body{
     }
     
     .textoHome{
-        color: $texto
+        color: $texto1
     }
 
     p{
@@ -128,7 +132,7 @@ body{
     }
     
     h2{
-        color: $titulos
+        color: $titulos1
     }
     
     
@@ -149,7 +153,7 @@ body{
     }
     
     iw{
-        color: green;
+        color: rgb(2, 129, 2);
     }
     
     if{
@@ -171,19 +175,19 @@ body{
 
 /*------------------------Nosotros----------------------------*/
 .quienessomos{
-    color: $titulos
+    color: $titulos1
 }
 
 
 p{
-    color: $texto;
+    color: $texto1
 }
 .sumate{
     color: rgb(68, 84, 230)
 }
 
 strong{
-    color:$titulos;
+    color:$titulos1
 }
 
 .nosotros{
@@ -237,7 +241,7 @@ strong{
 
 
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:250px){
 
     .containercasa{
         width: 100%;
@@ -247,7 +251,7 @@ strong{
     .local{
         width: 100%;
         height: 100%;
-        background-image: url(../img/local.png);
+        background-image: url(./img/local.png);
         border: 6px solid rgb(0, 0, 0);
         border-radius: 8px;
         box-shadow: 0 0 5px rgb(102, 78, 233); 
@@ -259,7 +263,7 @@ strong{
     .foto2{
         grid-column: 2/3;
         grid-row: 1/3;
-        background-image: url(../img/local2.png);
+        background-image: url(./img/local2.png);
         background-position: center;
         background-size: cover;
     }
@@ -300,7 +304,7 @@ div h2 b{
 /*----------------------Galeria-------------------------------*/
 
 .bodygaleria{
-    color: $titulos;
+    color: $titulos1;
     background-image: linear-gradient(to left, rgb(39, 36, 39), rgb(10, 10, 29), black, rgb(59, 47, 47));
 }
 
@@ -384,7 +388,7 @@ div h2 b{
     background-image: url(./img/tatuajes/basketball.jpg);
 }
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:250px){
     .img{
         height: 400px;
     }
@@ -483,16 +487,16 @@ div h2 b{
 /*----------------------Gift-Card (Boostrap)-------------------------------*/
 
 h1{
-    color: $titulos;
+    color: $titulos1;
 }
 
 
 .card-title{
-    color: $titulos
+    color: $titulos1
 }
 
 .card-text{
-    color: $texto;
+    color: $texto1;
 }
 .card{
     margin-left: 40px;
