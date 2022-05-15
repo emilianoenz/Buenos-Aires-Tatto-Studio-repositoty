@@ -256,13 +256,14 @@ strong {
 }
 /*-----------------------Turnos-------------------------------*/
 .turno {
-  color: rgb(112, 112, 211);
-  background-image: url(../img/greenviolet.png);
+  background-color: black;
   background-size: cover;
+  color: rgb(173, 162, 162);
 }
 
-div h2 b {
-  color: rgb(184, 38, 189);
+.h1turno h1 {
+  color: rgb(179, 29, 171);
+  text-align: center;
 }
 
 /*----------------------Galeria-------------------------------*/

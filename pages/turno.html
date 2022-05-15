@@ -35,56 +35,88 @@
     </div>
 </nav>
 <body class="turno">
-<div>
-    <h1>
-        <b>
-            Mi turno
-        </b>
-    </h1>
-</div>
-<from actions="enviar php" method="post">
-<fieldset>
-    <legend>Ingresa tus datos</legend>
-<div> 
-    <label for="">nombre</label>
-    <input type="text" placeholder="escriba su nombre"><br>
-    <label for="">apellido</label>
-    <input type="text" placeholder="escriba su apellido"><br>
-    <label for="">correo</label>
-    <input type="mail"name="correo" placeholder="escriba su email"><br>
-    <label for="">telefono</label>
-    <input type="number" placeholder="escriba su telefono"><br>
-</div>
-<p>selecciona una opcion</p>
-<input name="elegir" type="radio">
-<label for="">tatuaje</label>
-<br>
-<input name="elegir" type="radio">
-<label for="">eliminacion laser</label>
-<br>
-<input name="elegir" type="radio">
-<label for="">piercing</label>
-<br>
-<br>
-elige una fecha <input type="date"><br>
-sube una imagen del tatuaje que deseas remover.
-<input type="file"><br>
-<br>
-<b>
-<b>comentanos si hay algun aspecto a tener en cuenta. sencibilidad, alergia, etc.
-</b>
-<br>
-<textarea name="comentarios" id="comentarios" cols="45" rows="8"></textarea><br>
-<input type="checkbox">
-<label for="">acepta terminos y condiciones</label>
-<br>
-<br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
-</fieldset>
-</form>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
+    <div class="h1turno">
+        <h1>Mi turno</h1>
+    </div>
+    <div class="container">
+        <form class="row g-3 needs-validation" novalidate>
+            <div>
+                <label for="validationTooltip01" class="form-label"></label> 
+                <input type="text" class="form-control" placeholder="nombre" id="validationTooltip01" value="" required>
+                <div class="valid-tooltip">
+            </div>
+            <div>
+                <label for="validationTooltip01" class="form-label"></label>
+                <input type="text" class="form-control" placeholder="apellido" id="validationTooltip01" value="" required>
+                <div class="valid-tooltip">
+            </div>
+        <div>
+            <label for="validationTooltip01" class="form-label"></label>
+            <input type="number" class="form-control" placeholder="documento" id="validationTooltip01" value="" required>
+        <div class="valid-tooltip">
+    </div>
+        <div>
+            <label for="validationTooltip01" class="form-label"></label>
+            <input type="number" class="form-control" placeholder="telefono" id="validationTooltip01" value="" required>
+            <div class="valid-tooltip">
+        </div>
+        <div>
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="buenosairestattoostudio@example.com">
+        </div>
+        <br>
+        <div>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>selecciona una opcion</option>
+                <option value="1">tatuaje</option>
+                <option value="2">piercing</option>
+                <option value="3">eliminacion laser</option>
+            </select>
+        </div>
+        <div>
+            Elige una fecha <input type="date"><br>
+            Sube una imagen del tatuaje que deseas remover.
+            <input type="file"><br>
+        </div>
+        <br>
+        <div class="mb-3 infoextra">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentanos si hay algun aspecto a tener en cuenta. sencibilidad, alergia, etc.</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input btn-secondary" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+            Acepto terminos y condiciones
+            </label>
+            <div class="invalid-feedback">
+            </div>
+        </div>
+        </div>
+        <div class="col-12">
+        <button class="btn btn-secondary" type="submit">Enviar</button>
+        </div>
+    </form>
+    <footer>
+        <div class="iconos">
+            <ul>
+                <a href="https://www.instagram.com"><ii class="fa-brands fa-instagram"></ii></a>
+                <a href="https://www.facebook.com"><if class="fa-brands fa-facebook"></if></a>
+                <a href="https://web.whatsapp.com"><iw class="fa-brands fa-whatsapp"></iw></a>
+            </ul>
+        </div>
+        <div>
+            © 2022 Emiliano Enz, todos los derechos reservados.
+            <ul>
+                <a href="https://www.linkedin.com/in/emiliano-enz-a0b522a1"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/emilianoenz/"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://www.facebook.com/emiliano.enz"><i class="fa-brands fa-facebook-square"></i></i></a>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2120c4dad3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 </html>
